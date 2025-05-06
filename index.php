@@ -426,11 +426,11 @@
           <i class="ri-triangle-fill" style="font-size:2.7rem"></i>
         </div>
         <hr>
-        <div class="py-[1rem] flex gap-4 flex-col px-4 mt-2">
+        <div class="py-[1rem] flex gap-2 flex-col px-4 mt-2">
           <p class="text-[17px]">Next.js Starter</p>
           <p class="text-[13.2px]"> A Next.js App Router template configured with cookie-based auth using Supabase, TypeScript and Tailwind CSS.
           </p>
-          <div class="flex gap-2 justify-start items-center mt-3"><span class="text-[12px]"> View Template</span><i class="ri-arrow-right-up-line"></i></div>
+          <div class="flex gap-2 justify-start items-center mt-2"><span class="text-[12px]"> View Template</span><i class="ri-arrow-right-up-line"></i></div>
         </div>
       </div>
       <div
