@@ -23,7 +23,7 @@
                 data-aos-anchor="#example-anchor"
                 data-aos-offset="500"
                 data-aos-duration="1000"
-                class="text-[#075E54] font-semibold tracking-widest mb-2">PRICING</p>
+                class="text-[#075E54] font-semibold tracking-widest mt-4 mb-2">PRICING</p>
             <h2
                 data-aos="zoom-out"
                 data-aos-anchor="#example-anchor"
@@ -144,7 +144,7 @@
             ?>
             <!-- <?php echo $plan['name']; ?> Plan -->
             <div
-                data-aos="<?php echo $animation; ?>"
+                  data-aos="zoom-out"
                 data-aos-anchor="#example-anchor"
                 data-aos-offset="500"
                 data-aos-duration="1000"

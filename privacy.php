@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php
-    
+
     include("headlink.php")
     ?>
+      <script src="https://cdn.tailwindcss.com"></script>
+
     <title>Document</title>
 </head>
 
@@ -16,39 +18,40 @@
     include("nevbar.php")
     ?>
     <section>
-        <div class="relative  h-[450px] w-full bg-gradient-to-r from-[#075E54] to-[#5B9C94]">
+        <div class="relative  lg:h-[450px] h-[350px] w-full bg-gradient-to-r from-[#075E54] to-[#5B9C94] bg-[#075E54]">
             <img src="image/section-break.png" alt="" class="z-20 absolute  bottom-[-2px] left-0 w-[100%]">
             <!-- <img src="image/  bgdesignblack.png" alt="" class="z-20 absolute  bottom-[-2px] left-0 w-[100%]"> -->
-          
+
             <div class=" ">
 
-                <div class="w-[50%] flex justify-center items-center flex-col h-[350px] ">
+                <div class="lg:w-[50%] w-[100%]  flex justify-center items-center flex-col h-[350px]  ">
                     <p
-                     data-aos="zoom-out"
-    data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="1000"
-                    class="text-[70px] text-white font-bold">Privacy Policy</p>
+                        data-aos="zoom-out"
+                        data-aos-anchor="#example-anchor"
+                        data-aos-offset="500"
+                        data-aos-duration="1000"
+                        class="lg:text-[70px] text-[40px]  text-white font-bold">Privacy Policy</p>
                     <p
-                     data-aos="zoom-out"
-    data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="1000"
-                    class="text-white font-bold text-2xl">We value your privacy</p>
+                        data-aos="zoom-out"
+                        data-aos-anchor="#example-anchor"
+                        data-aos-offset="500"
+                        data-aos-duration="1000"
+                        class="text-white font-bold text-2xl">We value your privacy</p>
                 </div>
-                <div class="absolute right-[5%] top-[5%] z-40 w-[400px]">
-                    <img 
-                    data-aos="zoom-out"
-    data-aos-anchor="#example-anchor"
-     data-aos-offset="500"
-     data-aos-duration="1000"
-                    src="image/amico.png" alt="" class="z-40 w-[100%]">
-                    <!-- <img src="image/amico.png" alt="" class="z-40 w-[100%]"> -->
-                    
-                </div>
+              <div class="absolute right-[5%] top-[15%] z-40 w-[600px] lg:flex justify-center items-center hidden ">
+    <img
+        data-aos="zoom-out"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="1000"
+        src="image/amico.png"
+        alt=""
+        class="z-[20] w-[100px] lg:w-[400px] h-[380px]">
+</div>
+
             </div>
         </div>
-        <div class="flex justify-center items-center px-9 gap-8 mt-[3rem] relative">
+        <div class="flex justify-start items-center px-9 gap-8 mt-[3rem] relative flex-wrap">
             <div class="w-[250px] ">
 
                 <p class="text-[#075E54] text-[1rem] font-bold py-3.5 ps-3">Legal information</p>
@@ -89,7 +92,7 @@
 
             </div>
             <div>
-                <p class="mb-4">
+                <p class="mb-4 text-[13px] lg:text-[16px] ">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat nesciunt distinctio dolores beatae saepe porro laborum omnis voluptatem! Sit aliquid dolore sunt natus alias, ex dicta? Amet suscipit est voluptates, minus at labore rerum dolor magnam! Perferendis iusto ullam molestiae cupiditate fuga magnam dolorum repellat eum vel, accusantium, commodi recusandae neque, aliquam eos iure earum labore illum sunt quaerat officia cum? Odit, aliquam cupiditate perspiciatis at dolores eius consequuntur, sunt similique, eligendi commodi facilis beatae optio iste quaerat magni voluptate molestias accusamus? Corporis, error alias nisi quibusdam earum laborum magni, dolores dolore omnis nam asperiores! Expedita modi inventore nobis ipsum! Deleniti necessitatibus vitae molestias quos! Nesciunt voluptatibus est, voluptatem voluptate tempore exercitationem vero possimus nulla dolorum officia illum eaque culpa veritatis, porro similique autem assumenda? Facilis dolores at laudantium saepe, porro illo explicabo officia veniam facere corrupti accusantium mollitia quibusdam dolore vitae voluptatum omnis ab earum similique labore dicta adipisci magni distinctio dolorem. Porro tenetur obcaecati aspernatur rem non magnam quibusdam! Fugit, modi sit, et unde voluptate quisquam possimus consectetur excepturi dicta soluta voluptatum beatae non cupiditate eum nostrum maiores facere maxime architecto ea quam esse ipsum aspernatur ullam! Deserunt beatae odio inventore suscipit vero atque eaque vel animi quia?
                 </p>
                 <p class="mb-4">
@@ -101,10 +104,15 @@
                 <p class="mb-4">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat nesciunt distinctio dolores beatae saepe porro laborum omnis voluptatem! Sit aliquid dolore sunt natus alias, ex dicta? Amet suscipit est voluptates, minus at labore rerum dolor magnam! Perferendis iusto ullam molestiae cupiditate fuga magnam dolorum repellat eum vel, accusantium, commodi recusandae neque, aliquam eos iure earum labore illum sunt quaerat officia cum? Odit, aliquam cupiditate perspiciatis at dolores eius consequuntur, sunt similique, eligendi commodi facilis beatae optio iste quaerat magni voluptate molestias accusamus? Corporis, error alias nisi quibusdam earum laborum magni, dolores dolore omnis nam asperiores! Expedita modi inventore nobis ipsum! Deleniti necessitatibus vitae molestias quos! Nesciunt voluptatibus est, voluptatem voluptate tempore exercitationem vero possimus nulla dolorum officia illum eaque culpa veritatis, porro similique autem assumenda? Facilis dolores at laudantium saepe, porro illo explicabo officia veniam facere corrupti accusantium mollitia quibusdam dolore vitae voluptatum omnis ab earum similique labore dicta adipisci magni distinctio dolorem. Porro tenetur obcaecati aspernatur rem non magnam quibusdam! Fugit, modi sit, et unde voluptate quisquam possimus consectetur excepturi dicta soluta voluptatum beatae non cupiditate eum nostrum maiores facere maxime architecto ea quam esse ipsum aspernatur ullam! Deserunt beatae odio inventore suscipit vero atque eaque vel animi quia?
                 </p>
-            </div><img src="image/Rectangle 11.png" alt="" class="absolute left-[8%] top-[50%] w-[383.94px]">
-            </div><img src="image/Rectangle 11.png" alt="" class="absolute right-[8%] top-[75%] w-[383.94px]">
+            </div><img src="image/Rectangle 11.png" alt="" class="absolute left-[8%] top-[50%] lg:w-[383.94px] w-[200.94px]">
+        </div><img src="image/Rectangle 11.png" alt="" class="absolute right-[8%] top-[75%] lg:w-[383.94px] w-[200.94px]">
         </div>
 
+    </section>
+    <section>
+        <div>
+            <h1 class=" text-red-400 bg-amber-500">pallab </h1>
+        </div>
     </section>
     <?php
     include("footer.php")

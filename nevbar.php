@@ -1,6 +1,6 @@
-<nav class="flex h-[64px] pl-[20px] pr-[20px] sm:pl-[50px] sm:pr-[50px] border-b-2 border-[#353131] w-full items-center justify-between fixed bg-white z-30 lg:relative">
+<nav class="flex h-[64px] pl-[20px] pr-[20px] sm:pl-[50px] sm:pr-[50px] border-b-2 border-[#353131] w-full items-center justify-between fixed bg-white z-30 ">
   
-  <div class="left-side flex items-center justify-between lg:w-[65%]">
+  <div class="left-side flex items-center justify-between text-black lg:w-[65%] ">
     <a
     data-aos="fade-up"
     data-aos-anchor="#example-anchor"
@@ -53,7 +53,8 @@
     data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="1000"
-    class="flex items-center gap-1 justify-center">
+
+    class="flex items-center gap-1 justify-cente">
       <i class="ri-github-fill text-[28px]"></i>
       <span class="text-[12px]">77.1K</span>
     </div>
@@ -78,11 +79,11 @@
     
   </div>
   <button id="menu-toggle" class="lg:hidden text-2xl ml-2 z-50">
-      <i id="menu-icon" class="ri-menu-line"></i>
+      <i id="menu-icon" class="ri-menu-line text-black"></i>
     </button>
 
   <!-- Mobile Menu -->
-  <div id="mobile-menu" class="fixed top-0 right-0 h-full w-64 bg-white shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out lg:hidden flex flex-col p-6 gap-4 z-40">
+  <div id="mobile-menu" class="fixed top-0 right-0 h-full w-64 text-black bg-white shadow-lg transform translate-x-full transition-transform duration-300 ease-in-out lg:hidden flex flex-col p-6 gap-4 z-40">
     <span class="font-[500] text-[16px]"><a href="#product">Product <i class="ri-arrow-down-s-line"></i></a></span>
     <span class="font-[500] text-[16px]"><a href="privacy.php">Features <i class="ri-arrow-down-s-line"></i></a></span>
     <span class="font-[500] text-[16px]"><a href="#Enterprise">Enterprise</a></span>

@@ -6,9 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
  
-  <?php
+  <!-- <?php
   include("headlink.php")
-  ?>
+  ?> -->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="./output.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <style>
     .scrollbar-hide {
       -ms-overflow-style: none !important;
@@ -28,7 +34,7 @@
 
     .gradient-color {
       background: #075E54;
-      background: linear-gradient(90deg, rgba(7, 94, 84, 1) 0%, rgba(63, 207, 142, 0) 10%, rgba(255, 255, 255, 0) 88%, rgba(126, 169, 164, 1) 100%, rgba(7, 94, 84, 1) 100%);
+      background: linear-gradient(90deg, rgba(7, 94, 84, 1) 0%, rgba(63, 207, 142, 0) 10%, rgba(255, 255, 255, 0) 88%, rgba(7, 94, 84, 1) 100%);
     }
 
     .overlay-background {
@@ -64,7 +70,7 @@
     data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="1000"
-      class="text-[12px] sm:text-[14px] ">Meta Tech Partner · Powered by official WhatsApp API</p>
+      class="text-[12px] sm:text-[14px] mt-10 text-black">Meta Tech Partner · Powered by official WhatsApp API</p>
 
       <!-- Main Heading -->
       <h1 
@@ -72,7 +78,7 @@
     data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="1000"
-      class="text-2xl sm:text-4xl lg:text-6xl font-bold leading-snug overflow-hidden" data-aos="zoom-out">
+      class="text-2xl sm:text-4xl lg:text-6xl text-black font-bold leading-snug overflow-hidden" data-aos="zoom-out">
         Do smart work with <br>
         <span 
         data-aos="zoom-out"
@@ -88,7 +94,7 @@
     data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="1000"
-      class="text-[14px] sm:text-[16px] text-gray-700 dark:text-gray-300 max-w-3xl">
+      class="text-[14px] sm:text-[16px] text-gray-500  max-w-3xl">
         Broadcast, Automate, Engage, Sell - Do Everything with the Smartest WhatsApp Engagement Platform.
       </p>
 
@@ -98,7 +104,7 @@
     data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="1000"
-      class="text-[14px] sm:text-[16px] text-gray-700 dark:text-gray-300 max-w-2xl">
+      class="text-[14px] sm:text-[16px] text-gray-500 max-w-2xl">
         Sell more with personalised communication on WhatsApp. Automate marketing, sales, service and support by
         WhatsApp Business API.
       </p>
@@ -110,7 +116,7 @@
     data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="1000"
-        class="text-[12px] sm:text-[14px] font-medium">Powered by Official WhatsApp APIs ⚡</span>
+        class="text-[12px] sm:text-[14px] text-gray-500 font-medium">Powered by Official WhatsApp APIs ⚡</span>
 
         <div class="btns flex flex-col sm:flex-row gap-3 mt-3 sm:mt-0 overflow-hidden" data-aos="zoom-out-left">
           <button 
@@ -138,7 +144,7 @@
     data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="1000"
-      class="text-[12px] sm:text-[14px] text-gray-700 dark:text-gray-300 max-w-2xl">
+      class="text-[12px] sm:text-[14px] text-gray-500 max-w-2xl">
         No credit card required · Cancel anytime. Free for 7 days
       </p>
 
@@ -162,7 +168,7 @@
     data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="1000"
-     class="text-[12px] sm:text-[14px] text-gray-700 dark:text-gray-300 max-w-2xl mt-4">
+     class="text-[12px] sm:text-[14px] text-gray-500 max-w-2xl mt-4">
         Trusted by fast-growing companies worldwide
       </p>
 
@@ -380,7 +386,7 @@
       data-aos="zoom-out"
         data-aos-easing="linear"
         data-aos-duration="1000"
-      class="text-black text-[10px] text-center md:text-[15px]">Kickstart your next project with templates built by us and our community.</p>
+      class="text-gray-600 text-[10px] text-center md:text-[15px]">Kickstart your next project with templates built by us and our community.</p>
       <div class="flex justify-center items-center gap-2 my-3">
 
         <button 
@@ -515,12 +521,12 @@
           data-aos="zoom-out"
           data-aos-easing="linear"
           data-aos-duration="1000"
-          class="md:text-[34.2px] text-[1.3rem]">Stay productive and manage your app</p>
+          class="md:text-[34.2px] text-[1.3rem] text-black">Stay productive and manage your app</p>
         <p
           data-aos="zoom-out"
           data-aos-easing="linear"
           data-aos-duration="1000"
-          class="md:text-[34.2px] text-[1.3rem]"> without leaving the dashboard</p>
+          class="md:text-[34.2px] text-[1.3rem] text-black"> without leaving the dashboard</p>
       </div>
       <div class="overflow-hidden">
         <button
@@ -592,12 +598,12 @@
         data-aos="zoom-out"
         data-aos-easing="linear"
         data-aos-duration="1000"
-        class="text-[1.5rem] font-bold md:text-[32px]  ">Join the community</p>
+        class="text-[1.5rem] font-bold md:text-[32px] text-black  ">Join the community</p>
       <p
         data-aos="zoom-out"
         data-aos-easing="linear"
         data-aos-duration="1000"
-        class="md:text-[16px] text-[10px]">Discover what our co mmunity has to say about their Supabase experience.</p>
+        class="md:text-[16px] text-[10px] text-gray-600">Discover what our co mmunity has to say about their Supabase experience.</p>
       <div class="flex gap-2">
         <button
           data-aos="fade-left"
@@ -858,18 +864,18 @@
       data-aos="zoom-out"
         data-aos-easing="linear"
         data-aos-duration="1000"
-      class="mdtext-[35px] text-[1.5rem] font-bold text-center">Build in a weekend,scale to millions</p>
+      class="mdtext-[35px] text-[1.5rem] font-bold text-center text-black">Build in a weekend,scale to millions</p>
       <div class="flex gap-2">
         <button 
          data-aos="fade-left"
         data-aos-easing="linear"
         data-aos-duration="1000"
-        class="md:text-[13px ] text-[10px] bg-[#075E54] rounded-[6px] border-[#075E54] p-3 text-white font-bold">Start your project</button>
+        class="md:text-[15px] text-[10px] bg-[#075E54] rounded-[6px] border-[#075E54] p-3 text-white font-bold">Start your project</button>
         <button 
          data-aos="fade-right"
         data-aos-easing="linear"
         data-aos-duration="1000"
-        class="text-black border border-black rounded-[6px] p-3 md:text-[13px ] text-[10px] font-bold">Request a demo</button>
+        class="text-black border border-black rounded-[6px] p-3 md:text-[15px] text-[10px] font-bold">Request a demo</button>
       </div>
     </div>
   </section>
