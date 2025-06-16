@@ -51,7 +51,7 @@
 
             </div>
         </div>
-        <div class="flex justify-start items-center px-9 gap-8 mt-[3rem] relative flex-wrap">
+        <div class="flex justify-start items-center px-9 gap-8 mt-[3rem] relative flex-wrap lg:flex-nowrap">
             <div class="w-[250px] ">
 
                 <p class="text-[#075E54] text-[1rem] font-bold py-3.5 ps-3">Legal information</p>
@@ -92,7 +92,7 @@
 
             </div>
             <div>
-                <p class="mb-4 text-[13px] lg:text-[16px] ">
+                <p class="mb-4 text-[13px] lg:text-[16px]   ">
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat nesciunt distinctio dolores beatae saepe porro laborum omnis voluptatem! Sit aliquid dolore sunt natus alias, ex dicta? Amet suscipit est voluptates, minus at labore rerum dolor magnam! Perferendis iusto ullam molestiae cupiditate fuga magnam dolorum repellat eum vel, accusantium, commodi recusandae neque, aliquam eos iure earum labore illum sunt quaerat officia cum? Odit, aliquam cupiditate perspiciatis at dolores eius consequuntur, sunt similique, eligendi commodi facilis beatae optio iste quaerat magni voluptate molestias accusamus? Corporis, error alias nisi quibusdam earum laborum magni, dolores dolore omnis nam asperiores! Expedita modi inventore nobis ipsum! Deleniti necessitatibus vitae molestias quos! Nesciunt voluptatibus est, voluptatem voluptate tempore exercitationem vero possimus nulla dolorum officia illum eaque culpa veritatis, porro similique autem assumenda? Facilis dolores at laudantium saepe, porro illo explicabo officia veniam facere corrupti accusantium mollitia quibusdam dolore vitae voluptatum omnis ab earum similique labore dicta adipisci magni distinctio dolorem. Porro tenetur obcaecati aspernatur rem non magnam quibusdam! Fugit, modi sit, et unde voluptate quisquam possimus consectetur excepturi dicta soluta voluptatum beatae non cupiditate eum nostrum maiores facere maxime architecto ea quam esse ipsum aspernatur ullam! Deserunt beatae odio inventore suscipit vero atque eaque vel animi quia?
                 </p>
                 <p class="mb-4">
@@ -109,11 +109,7 @@
         </div>
 
     </section>
-    <section>
-        <div>
-            <h1 class=" text-red-400 bg-amber-500">pallab </h1>
-        </div>
-    </section>
+   
     <?php
     include("footer.php")
     ?>
