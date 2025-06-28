@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+ 
     <?php
     
     include("headlink.php")
     ?>
 </head>
-<body>
+<body class="font-[dmsans]">
     <?php
     include("nevbar.php")
     ?>
